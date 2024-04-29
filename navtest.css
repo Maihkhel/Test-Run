@@ -1,0 +1,31 @@
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: tomato; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; padding-left: 15px; padding-right: 15px;
+}
+
+.navdiv{
+    display: flex; justify-content: space-between; align-items: center;
+}
+
+.logo{
+    font-size: 50px; font-weight: 600; color: white;
+}
+
+li{
+    list-style: none; display: inline-block;
+}
+
+li a{
+    color: white; font-size: 25px; font-weight: bold; margin-right: 25px;
+}
+
+button{
+    background-color: black; margin-left: 10px; padding: 10px; border-radius: 10px; width: 90px;
+}
+
+button a{
+    color: white; font-weight: bold; font-size: 15px;
+}
